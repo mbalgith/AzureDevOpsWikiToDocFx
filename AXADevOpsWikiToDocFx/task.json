@@ -1,7 +1,7 @@
 {
-  "id": "20a0ad26-6f4d-4966-a8ec-61978feab4c9",
-  "name": "AzureDevOpsWikiToDocFx",
-  "friendlyName": "AzureDevOpsWikiToDocFx",
+  "id": "ab9efbda-8735-4c89-8b7a-4ab3d0cd5f2c",
+  "name": "AXADevOpsWikiToDocFx",
+  "friendlyName": "AXADevOpsWikiToDocFx",
   "description": "This task creates a DocFX website out of your Azure DevOps wiki repository",
   "author": "Monta",
   "helpUrl": "https://github.com/Montapacking/AzureDevOpsWikiToDocFx/blob/main/README.md",
@@ -16,7 +16,7 @@
     "Patch": "0"
   },
   "minimumAgentVersion": "1.95.0",
-  "instanceNameFormat": "AzureDevOpsWikiToDocFx $(message)",
+  "instanceNameFormat": "AXADevOpsWikiToDocFx $(message)",
   "inputs": [
     {
       "name": "SourceFolder",

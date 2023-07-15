@@ -1,15 +1,16 @@
 {
     "manifestVersion": 1,
-    "id": "AzureDevOpsWikiToDocFx", 
-    "name": "Azure DevOps Wiki to DocFx",
-    "version": "1.1.0",
-    "publisher": "Monta",
+    "id": "AXADevOpsWikiToDocFx", 
+    "name": "AXA DevOps Wiki to DocFx",
+    "version": "0.3",
+   "publisher": "IT-Habegger",
+    "public": false,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "A task that generates a DocFX website out of your Azure DevOps wiki repository.",
+    "description": "A task that generates a DocFX website out of your Azure DevOps wiki repository with the AXA design",
     "categories": [
         "Azure Pipelines"
     ],
@@ -17,9 +18,9 @@
         "default": "icon.png"
     },
     "files": [
-        {
-            "path": "AzureDevOpsWikiToDocFx"
-        }
+      {
+        "path": "AXADevOpsWikiToDocFx"
+      }
     ],
     "content": {
         "details": {
@@ -30,23 +31,19 @@
         }
     },
     "repository": {
-        "type": "git",
-        "uri": "https://github.com/Montapacking/AzureDevOpsWikiToDocFx"
+      "type": "git",
+      "uri": "https://github.com/mbalgith/AzureDevOpsWikiToDocFx"
     },    
-    "galleryFlags": [
-        "Public",
-        "Preview"
-    ],
     "contributions": [
         {
-            "id": "AzureDevOpsWikiToDocFx",
+            "id": "AXADevOpsWikiToDocFx",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
-            "properties": {
-                "name": "AzureDevOpsWikiToDocFx"
-            }
+          "properties": {
+            "name": "AXADevOpsWikiToDocFx"
+          }
         }
     ]
 }
